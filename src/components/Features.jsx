@@ -111,8 +111,8 @@ const Features = () => (
       </BentoTilt>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:grid-rows-3 md:gap-7">
-        <BentoTilt className="md:row-span-2 aspect-[16/9] md:aspect-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 md:gap-x-7 md:gap-y-7 gap-4">
+        <BentoTilt className="md:row-span-3 md:h-[65vh] overflow-hidden rounded-md">
           <BentoCard
             src="videos/feature-2.mp4"
             title={<>P<b>a</b>stries</>}
@@ -121,7 +121,7 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="aspect-[16/9] md:aspect-auto">
+        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
           <BentoCard
             src="videos/feature-3.mp4"
             title={<>A<b>l</b>oo Puffs</>}
@@ -130,7 +130,7 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="aspect-[16/9] md:aspect-auto">
+        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
           <BentoCard
             src="videos/feature-4.mp4"
             title={<>M<b>a</b>carons</>}
@@ -139,7 +139,7 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="md:h-[65vh] aspect-[16/9] md:aspect-auto">
+        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
           <BentoCard
             src="videos/feature-5.mp4"
             title={<>C<b>r</b>oissants</>}
@@ -148,7 +148,7 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt id="feature-6" className="border-hsla relative overflow-hidden rounded-md aspect-[16/9] md:h-[65vh] md:aspect-auto">
+        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
           <BentoCard
             src="videos/brownie.mp4"
             title={<>B<b>r</b>ownies</>}
