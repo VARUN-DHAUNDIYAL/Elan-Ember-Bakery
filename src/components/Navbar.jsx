@@ -117,7 +117,7 @@ const NavBar = () => {
               {navItems.map((item, index) => (
                 <a
                   key={index}
-                  href={index === 0 ? "#about" : index === 1 ? "#feature-1" : index === 2 ? "#gallery-cruffins" : index === 3 ? "#story" : `#${item.toLowerCase()}`}
+                  href={index === 0 ? "#about" : index === 1 ? "#feature-cakes" : index === 2 ? "#gallery-cruffins" : index === 3 ? "#story" : `#${item.toLowerCase()}`}
                   className="nav-hover-btn text-black hover:text-gold text-sm sm:text-base px-2"
                 >
                   {item}
@@ -134,7 +134,7 @@ const NavBar = () => {
                   {navItems.map((item, index) => (
                     <a
                       key={index}
-                      href={index === 0 ? "#about" : index === 1 ? "#feature-1" : index === 2 ? "#gallery-cruffins" : index === 3 ? "#story" : `#${item.toLowerCase()}`}
+                      href={index === 0 ? "#about" : index === 1 ? "#feature-cakes" : index === 2 ? "#gallery-cruffins" : index === 3 ? "#story" : `#${item.toLowerCase()}`}
                       className="text-black text-lg font-semibold py-2 px-2 rounded hover:bg-gold/30"
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -152,7 +152,7 @@ const NavBar = () => {
               <audio
                 ref={audioElementRef}
                 className="hidden"
-                src="/audio/loop.mp3"
+                src="/audio/Meteorites.wav"
                 loop
               />
               {[1, 2, 3, 4].map((bar) => (

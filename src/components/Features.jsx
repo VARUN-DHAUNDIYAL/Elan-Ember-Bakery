@@ -97,22 +97,17 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 const Features = () => (
   <section id="features" className="bg-cream pt-8 pb-0 md:pb-24">
     <div className="w-full px-2 sm:px-8 md:px-10 space-y-4 md:space-y-0">
-      {/* Hero card */}
-      <BentoTilt
-        id="feature-1"
-        className="border-hsla relative w-full overflow-hidden rounded-md aspect-[16/9] md:h-[65vh]"
-      >
-        <BentoCard
-          src="videos/feature-1.mp4"
-          title={<>C<b>a</b>kes</>}
-          description="Moist, flavorful, and beautifully decorated cakes for every occasion. 100% pure veg."
-          isComingSoon
-        />
-      </BentoTilt>
-
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 md:gap-x-7 md:gap-y-7 gap-4">
-        <BentoTilt className="md:row-span-3 md:h-[65vh] overflow-hidden rounded-md">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 gap-4 md:gap-7">
+        <BentoTilt id="feature-cakes" className="overflow-hidden rounded-md h-[30vh] md:h-[30vh]">
+          <BentoCard
+            src="videos/feature-1.mp4"
+            title={<>C<b>a</b>kes</>}
+            description="Moist, flavorful, and beautifully decorated cakes for every occasion. 100% pure veg."
+            isComingSoon
+          />
+        </BentoTilt>
+        <BentoTilt className="overflow-hidden rounded-md h-[30vh] md:h-[30vh]">
           <BentoCard
             src="videos/feature-2.mp4"
             title={<>P<b>a</b>stries</>}
@@ -120,8 +115,7 @@ const Features = () => (
             isComingSoon
           />
         </BentoTilt>
-
-        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
+        <BentoTilt className="overflow-hidden rounded-md h-[30vh] md:h-[30vh]">
           <BentoCard
             src="videos/feature-3.mp4"
             title={<>A<b>l</b>oo Puffs</>}
@@ -129,8 +123,7 @@ const Features = () => (
             isComingSoon
           />
         </BentoTilt>
-
-        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
+        <BentoTilt className="overflow-hidden rounded-md h-[30vh] md:h-[30vh]">
           <BentoCard
             src="videos/feature-4.mp4"
             title={<>M<b>a</b>carons</>}
@@ -138,8 +131,7 @@ const Features = () => (
             isComingSoon
           />
         </BentoTilt>
-
-        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
+        <BentoTilt className="overflow-hidden rounded-md h-[30vh] md:h-[30vh]">
           <BentoCard
             src="videos/feature-5.mp4"
             title={<>C<b>r</b>oissants</>}
@@ -147,8 +139,7 @@ const Features = () => (
             isComingSoon
           />
         </BentoTilt>
-
-        <BentoTilt className="md:h-[32vh] overflow-hidden rounded-md">
+        <BentoTilt className="overflow-hidden rounded-md h-[30vh] md:h-[30vh]">
           <BentoCard
             src="videos/brownie.mp4"
             title={<>B<b>r</b>ownies</>}
