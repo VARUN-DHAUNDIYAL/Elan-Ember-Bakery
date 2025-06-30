@@ -30,7 +30,7 @@ At Élan & Ember, every creation is a celebration of craft and care. Guided by u
 
 ### Installation
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/VARUN-DHAUNDIYAL/Elan-Ember-Bakery
 cd award-winning-website-main
 npm install
 ```
